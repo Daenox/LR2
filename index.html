@@ -5,14 +5,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Свіча</title>
-</head>
-<body>
-  <form id="exampleForm">
-   Надрукуйте ім'я<input type='text' name="name" value="name"><br>
-   Надрукуйте email<input type='text' name="email" value="name@at.ua"><br>
-   Надрукуйте дійсне число<input type='text' name="number" value="12.3"><br>
-   <button type="button" id="submitButton">Submit</button>
- </form>
  <script>function calculateChecksum(data) {
   let checksum = 0;
   for (let i = 0; i < data.length; i++) {
@@ -46,6 +38,15 @@ function handleSubmit() {
 // Прив'язка обробника до кнопки
 const submitButton = document.getElementById('submitButton');
 submitButton.addEventListener('click', handleSubmit);</script>
+</head>
+<body>
+  <form id="exampleForm">
+   Надрукуйте ім'я<input type='text' name="name" value="name"><br>
+   Надрукуйте email<input type='text' name="email" value="name@at.ua"><br>
+   Надрукуйте дійсне число<input type='text' name="number" value="12.3"><br>
+   <button type="button" id="submitButton">Submit</button>
+ </form>
+ 
 </body>
   
 </html>
