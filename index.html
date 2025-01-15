@@ -13,8 +13,7 @@
    Надрукуйте дійсне число<input type='text' name="number" value="12.3"><br>
    <button type="button" id="submitButton">Submit</button>
  </form>
-</body>
-  <script>function calculateChecksum(data) {
+ <script>function calculateChecksum(data) {
   let checksum = 0;
   for (let i = 0; i < data.length; i++) {
     checksum += data.charCodeAt(i);
@@ -47,6 +46,8 @@ function handleSubmit() {
 // Прив'язка обробника до кнопки
 const submitButton = document.getElementById('submitButton');
 submitButton.addEventListener('click', handleSubmit);</script>
+</body>
+  
 </html>
 
 
